@@ -6,7 +6,7 @@ const DayOne = () => {
   return (
     <View>
       <Stack.Screen options={{title : 'Day 1', headerTitleAlign : 'center'}} />
-      <Text>DayOne Details</Text>
+      <Text style = {{fontFamily : 'AmaticBold' , fontSize : 100}} >DayOne Details</Text>
     </View>
   )
 }
