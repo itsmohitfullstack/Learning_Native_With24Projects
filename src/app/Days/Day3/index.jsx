@@ -2,7 +2,7 @@ import { View, Text, Button } from 'react-native'
 import React from 'react'
 import {Link, Stack } from 'expo-router'
 
-const DayTwo = () => {
+const DayThree = () => {
   return (
     <View>
     <Stack.Screen options={{title : 'Day 3 Markdown', headerTitleAlign : 'center'}} />
@@ -17,4 +17,4 @@ const DayTwo = () => {
   )
 }
 
-export default DayTwo
+export default DayThree
